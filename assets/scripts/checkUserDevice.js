@@ -1,6 +1,12 @@
 function redirectToMobilePage() {
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-        window.location.href = "mobile.html"; // Chuyển hướng đến trang mobile.html
+    // Check if the user agent matches a mobile device and if not already on the mobile version
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.location.pathname !== '/mobile.html') {
+        // Redirect to the mobile version of the site
+        window.location.href = "mobile.html";
     }
 }
+
+// Call the function when the web page loads
+window.onload = function() {
+    redirectToMobilePage();
+};
