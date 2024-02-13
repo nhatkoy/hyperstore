@@ -165,6 +165,7 @@
     height: 95px;
 }
 .benefit-card {
+    height: 70%;
     padding: 0px 55px;
     margin: 15px 0px;
     display: flex;
