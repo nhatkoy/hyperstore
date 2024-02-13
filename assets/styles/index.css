@@ -162,11 +162,13 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    height: 95px;
 }
 .benefit-card {
     padding: 0px 55px;
     margin: 15px 0px;
     display: flex;
+    width: 15%;
 }
 .benefit-img {
     padding: 10px;
