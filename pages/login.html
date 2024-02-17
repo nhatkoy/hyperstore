@@ -88,20 +88,20 @@
                 </div>
                 <form action="../index.html" class="login-form">
                     <label for="username" class="login-form-text">Tên đăng nhập:</label><br>
-                    <input type="text" id="username" name="username" class="login-form-box"required placeholder="Nhập gì cũng được"><br>
+                    <input type="text" id="username" name="username" class="login-form-box"required placeholder="Nhập tên người dùng"><br>
                     <label for="password" class="login-form-text">Mật khẩu:</label><br>
-                    <input type="text" id="password" name="password" class="login-form-box" required placeholder="Không nhập cũng được luôn"><br><br>
-                    <input type="submit" value="Sign In" class="submit-btn">
+                    <input type="text" id="password" name="password" class="login-form-box" required placeholder="Nhập mật khẩu"><br><br>
+                    <input type="submit" value="Sign In" class="submit-btn" id="submitBtn">
                     <div class="checkbox-container">
                         <input type="checkbox" id="remember-me" class="checkbox">
-                        <label for="remember-me" class="remember-text">Remember me</label>
-                        <a href="#" class="forgot">Forgot password?</a>
+                        <label for="remember-me" class="remember-text">Lưu đăng nhập</label>
+                        <a href="#" class="forgot">Quên mật khẩu?</a>
                     </div>
                   </form> 
                   <div class="form-foot">
                     <p class="form-foot-text">Chưa có tài khoản? &ThinSpace;&ThinSpace;<a href="sign-up.html">Đăng ký</a></p>
                   </div>
-            </div>
+            </div>	
 
         </div>
         <div class="foot-container">
@@ -279,8 +279,8 @@
         <script>
             document.getElementById("submitBtn").addEventListener("click", function(event){
                 event.preventDefault();
-                alert("Đăng ký thành công, đăng nhập để vào web!");
-                window.location.href = "login.html";
+                alert("Đăng nhập thành công!");
+                window.location.href = "../index.html";
             });
         </script>
     </body>
