@@ -9,7 +9,6 @@
         <title>Hyper Store | Đăng nhập</title>
         <link rel="icon" type="image/x-icon" href="../assets/imgs/favicon.png" />
         <link rel="stylesheet" href="../assets/styles/login.css" />
-        <script src="../assets/scripts/login.js"    ></script>
         <script src="https://kit.fontawesome.com/36aa074c51.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -80,18 +79,22 @@
         <div class="main-container">
             <div class="form">
                 <div class="form-title">
-                    <p class="form-title-text">Đăng Nhập</p>
+                    <p class="form-title-text">Đăng Ký TK</p>
                     <div class="form-title-icon">
                         <i class="fa-brands fa-google form-title-icon-item" ></i>
                         <i class="fa-brands fa-facebook form-title-icon-item" ></i>
                     </div>
                 </div>
-                <form action="../index.html" class="login-form">
+                <form action="login.html" class="login-form">
                     <label for="username" class="login-form-text">Tên đăng nhập:</label><br>
                     <input type="text" id="username" name="username" class="login-form-box"required placeholder="Nhập gì cũng được"><br>
+                    <label for="username" class="login-form-text">Email:</label><br>
+                    <input type="text" id="username" name="username" class="login-form-box"required placeholder="Nhập email"><br>
                     <label for="password" class="login-form-text">Mật khẩu:</label><br>
+                    <input type="text" id="password" name="password" class="login-form-box"required placeholder="Không nhập cũng được luôn"><br>
+                    <label for="password" class="login-form-text">Mật khẩu nhập lại:</label><br>
                     <input type="text" id="password" name="password" class="login-form-box" required placeholder="Không nhập cũng được luôn"><br><br>
-                    <input type="submit" value="Sign In" class="submit-btn">
+                    <input type="submit" value="Sign In" class="submit-btn" id="submitBtn">
                     <div class="checkbox-container">
                         <input type="checkbox" id="remember-me" class="checkbox">
                         <label for="remember-me" class="remember-text">Remember me</label>
@@ -99,7 +102,7 @@
                     </div>
                   </form> 
                   <div class="form-foot">
-                    <p class="form-foot-text">Chưa có tài khoản? &ThinSpace;&ThinSpace;<a href="sign-up.html">Đăng ký</a></p>
+                    <p class="form-foot-text">Đã có tài khoản? &ThinSpace;&ThinSpace;<a href="login.html">Đăng nhập</a></p>
                   </div>
             </div>
 
