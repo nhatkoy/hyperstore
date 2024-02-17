@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<div lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="../assets/styles/login.css" />
         <script src="https://kit.fontawesome.com/36aa074c51.js" crossorigin="anonymous"></script>
     </head>
-
+    <body>
         <!-- Head -->
         <div class="head-container">
             <div class="head-left">
@@ -74,19 +74,34 @@
                     </a>
                 </div>
             </div>
-			</div>
-            <!-- /head -->
-            <!-- Main box -->
-            <div class="main">
-                <div class="form">
-					<div class="title">
-						<p class="title-text">Sign In</p>
-						<div class="title-icon">
-							<i class="fa-brands fa-twitter" style="color: #74C0FC;font-size: 36px; cursor: pointer;"></i>
-							<i class="fa-brands fa-facebook" style="color: #74C0FC; font-size: 36px;cursor: pointer;"></i>
-						</div>
-					</div>
+        </div>
+        <!-- Main -->
+        <div class="main-container">
+            <div class="form">
+                <div class="form-title">
+                    <p class="form-title-text">Sign In</p>
+                    <div class="form-title-icon">
+                        <i class="fa-brands fa-google form-title-icon-item" ></i>
+                        <i class="fa-brands fa-facebook form-title-icon-item" ></i>
+                    </div>
                 </div>
+                <form action="/action_page.php" class="login-form">
+                    <label for="username" class="login-form-text">USERNAME:</label><br>
+                    <input type="text" id="username" name="username" class="login-form-box" placeholder="Enter your username"><br>
+                    <label for="password" class="login-form-text">PASSWORD:</label><br>
+                    <input type="text" id="password" name="password" class="login-form-box" placeholder="Enter your password"><br><br>
+                    <input type="submit" value="Sign In" class="submit-btn">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="remember-me" class="checkbox">
+                        <label for="remember-me" class="remember-text">Remember me</label>
+                        <a href="#" class="forgot">Forgot password?</a>
+                    </div>
+                  </form> 
+                  <div class="form-foot">
+                    <p class="form-foot-text">Not a member? &ThinSpace;&ThinSpace;<a href="">Sign Up</a></p>
+                    
+                  </div>
             </div>
+        </div>
     </body>
 </html>
