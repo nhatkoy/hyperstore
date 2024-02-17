@@ -287,3 +287,88 @@ font-family: Montserrat, sans-serif; */
     color: aliceblue;
     text-decoration: underline;
 }
+/* Foot */
+.foot-container {
+    background-color: #161616;
+}
+.foot {
+    display: block;
+    width: 63%;
+    margin: 0px auto;
+}
+.foot-row1 {
+    display: flex;
+    padding: 40px 0px;
+}
+.foot-row1-img {
+    width: 15%;
+    padding: 0px 30px 30px 20px;
+}
+.foot-row1-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.foot-row1-des {
+    font-family: "Barlow", sans-serif;
+    color: #f1f1f1;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.foot-row2 {
+    display: flex;
+    /* padding: 40px 0px; */
+}
+.foot-row2-col {
+    padding-left: 15px;
+
+    width: 25%;
+}
+.foot-row2-col-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.foot-row2-col-item {
+    display: flex;
+    width: 100%;
+    float: left;
+}
+.foot-row2-col-item-img {
+    height: 100%;
+    margin: auto 0px;
+}
+.foot-row2-col-item-text {
+    font-family: "Barlow", sans-serif;
+    color: #f1f1f1;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.foot-row3-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    padding: 20px 0px;
+    /* margin-bottom: 20px; */
+}
+.foot-row3-icon-container {
+    display: flex;
+}
+
+footer {
+    background-color: #161616;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff80;
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    /* margin: 20px 0; */
+}
